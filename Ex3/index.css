@@ -1,0 +1,47 @@
+
+img.srcimg
+{
+    float: left;
+    border: 15px solid black;
+}
+
+p.Header
+{
+    text-align: center;
+    text-decoration: underline;
+    background-color: white;
+    color: black;
+    font-size: 35px;
+    font-weight: 100px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+p.Body
+{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 12pt;
+}
+
+body
+{
+    background-image: url("gameawards7.jpg.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a
+{
+    text-align: center;
+    background-color: darkblue;
+    color: grey;
+}
+
+a:hover
+{
+    color: white;
+}
+

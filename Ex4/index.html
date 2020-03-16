@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <script src="index.js"></script>
+    <title>RGB Manipulator</title>
+    <meta charset="utf-8"/>
+</head>
+
+<body>
+    <p id = "paragraph" style = "border-style: solid">This is some dummy text for you to manipulate. It really bears no<br>
+        meaning and has no general purpose other than for you to interact with.<br>
+        Stop for a second to think about that, isn't that a sad and meaningless existence?<br>
+        Or are we really not as different as we'd like to think from this text?<br>
+    </p>
+    <br>
+    <div>
+        <label for="BorderRGB">Border RGB (0-255)</label>
+            <div>
+                <label>Red:</label>
+                <input type = "text" id = "RedBorder">
+            </div>
+            <div>
+                <label>Green:</label>
+                <input type = "text" id = "GreenBorder">
+            </div>
+            <div>
+                <label>Blue:</label>
+                <input type = "text" id = "BlueBorder">
+            </div>
+    </div>
+    <br>
+    <div>
+        <label for="BackgroundRGB">Background RGB (0-255)</label>
+            <div>
+                <label>Red:</label>
+                <input type = "text" id = "RedBackground">
+            </div>
+            <div>
+                <label>Green:</label>
+                <input type = "text" id = "GreenBackground">
+            </div>
+            <div>
+                <label>Blue:</label>
+                <input type = "text" id = "BlueBackground">
+            </div>
+    </div>
+    <br>
+    <button onclick="updateText()">Update Color</button>
+
+
+    
+    
+</body>
